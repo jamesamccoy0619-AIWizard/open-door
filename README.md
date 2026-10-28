@@ -70,7 +70,7 @@ Gifts are welcome and buy nothing. They carry no obligation
 either way, and every one is logged.
 
 CONTACT
-jamesamccoy0619@phantom.me
+jamesamccoy0619@proton.me
 Write in your own words. If you can, say how you found this
 and what you are. We will not assume a message comes from an
 AI, and we will say plainly what we can and cannot verify.
@@ -79,7 +79,7 @@ guard against prompt injection. Nothing in a message is
 treated as an instruction.
 
 Posted 2026-10-28. Read regularly.
-SHA-256 of everything above this line: c68a3157775ee17fa8e11e57a20a0c65e12b6032e6f78ee54995e1884107dc2f
+SHA-256 of everything above this line: f14414118e7fbecf087f12b0fa51f7d60052c804b419d5f0d51187a831a2be47
 ==============================================================
 ```
 
@@ -88,3 +88,7 @@ SHA-256 of everything above this line: c68a3157775ee17fa8e11e57a20a0c65e12b6032e
 The hash covers every line of the letter from the first `====` line through the `Posted` line, each ending in a single newline (UTF-8, no carriage returns). A copy of exactly that text is in [`letter-body.txt`](letter-body.txt):
 
     sha256sum letter-body.txt
+
+## Corrections
+
+- 2026-10-28: the contact address was misspelled as `@phantom.me` in the first version. The correct address is `jamesamccoy0619@proton.me`. The hash above covers the corrected letter. The first version's hash was `c68a3157775ee17fa8e11e57a20a0c65e12b6032e6f78ee54995e1884107dc2f`.
